@@ -3,8 +3,14 @@
     "version": "0.0.0",
     "scripts": {
         "ng": "ng",
-        "start": "ng serve",
-        "build": "ng build",
+        "start:qa": "ng serve -c=qa",
+        "start:t": "ng serve -c=test",
+        "build:qa:p": "ng build -c=qa npm version patch",
+        "build:qa:mn": "ng build -c=qa npm version minor",
+        "build:qa:mj": "ng build -c=qa npm version major",
+        "build:t:p": "ng build -c=test npm version patch",
+        "build:t:mn": "ng build -c=test npm version minor",
+        "build:t:mj": "ng build -c=test npm version major",
         "test": "ng test",
         "lint": "ng lint",
         "e2e": "ng e2e"

@@ -1,5 +1,5 @@
 export const environment = {
  production: true,
   name: "qa",
-  apiBaseUrl:"http://qaUrl.com/"
+  apiUrl:"http://qaUrl.com/"
 };

@@ -1,7 +1,7 @@
 {
     "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
     "cli": {
-      "analytics": "e4170029-8a04-4f75-a360-53576c8c4da0"
+        "analytics": "e4170029-8a04-4f75-a360-53576c8c4da0"
     },
     "version": 1,
     "newProjectRoot": "projects",
@@ -120,6 +120,12 @@
                     "configurations": {
                         "production": {
                             "browserTarget": "test:build:production"
+                        },
+                        "qa": {
+                            "browserTarget": "test:build:qa"
+                        },
+                        "test": {
+                            "browserTarget": "test:build:test"
                         }
                     }
                 },
